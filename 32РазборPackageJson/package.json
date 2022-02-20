@@ -1,0 +1,25 @@
+{
+  "name": "testjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timofey Ya",
+  "license": "ISC",
+
+
+  "homepage":"yatim.ru",
+  "repository": {
+    "type": "git",
+    "url": "yatim.ru"
+  },
+  "bugs": {
+    "url": "https://yatim.ru",
+    "email": "tim02timka@mail.ru"
+  },
+  "private": "false"
+
+
+}
