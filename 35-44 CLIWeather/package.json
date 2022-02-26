@@ -1,10 +1,14 @@
 {
-  "name": "weather",
+  "name": "weather-cli_timofey_ya2",
   "version": "1.0.0",
   "description": "Weather CLI by Timofey Ya",
   "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

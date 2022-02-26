@@ -21,4 +21,21 @@ const printHelp = ()=>{
     `)
 }
 
-export {printError, printSuccess, printHelp};
+
+const printWeather = (data) =>{
+
+    if (process.env.TYPE !=1){
+    console.log(dedent`
+    
+    ${chalk.bold(chalk.yellow('Погода в городе '))}${chalk.bold(chalk.yellow(data.name))}
+
+    Температура воздуха: ${chalk.bold(data.main.temp)}
+    Ощущается как: ${chalk.bold(data.main.feels_like)}
+    Описание: ${chalk.bold(data.weather[0].description)}
+
+    `)
+    } else {
+        console.log(data);
+    }
+}
+export {printError, printSuccess, printHelp, printWeather};
